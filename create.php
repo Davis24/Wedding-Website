@@ -26,7 +26,7 @@
     }
 
 
-    
+	//Create Function    
 	function create($fullname, $email, $attending, $adults, $children, $diet = null)
 	{
 		$db = db_connect();
@@ -56,12 +56,34 @@
 	}
 
 
+	function read($id)
+	{
+		
+	}
+	
+
 
 	create("testname","email@test", "yes", 2, 3, "fish");
 	create("testname","email@test", "yes", 2, 3);
+	delete(11);
 
 
-	fuction 
+	function delete($id)
+	{
+		$db = db_connect();
+		$sql = "DELETE FROM ATTENDEES WHERE ID=$id";
+		if(mysqli_query($db,$sql))
+		{
+			echo "Record deleted successfully";
+		}
+		else
+		{
+			echo "Error: ".$sql."<br>".$db->error;
+		}
+
+		mysqli_close($db);
+		
+	}
 
 
 ?>
