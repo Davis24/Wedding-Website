@@ -1,0 +1,70 @@
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+
+.bgimg, .bgimg2, .wedding_image {
+	background-position: center;
+	background-size: cover;
+	min-height: 100%;
+	min-width: 100%;
+}
+.wedding_image{background-image: url("/img/womens_club.jpg")}
+.bgimg {background-image: url("/img/julee_andrew.jpg")}
+.bgimg2 {background-image: url("/img/andrew_julee_3.jpg")}
+
+#weddingparty, #rsvp {background-color: #466780; color:white;}
+.px36 {font-size:36px;}
+/* Firefox */
+::-moz-selection { 
+	background: #fe9a90;
+	color: white; 
+}
+
+.width25{width: 25%;}
+.width100{width: 100%;}
+
+::selection {
+	background: #fe9a90;
+	color: white;
+}
+	
+input {
+	border: 1px solid #aaaaaa;
+	font-family: Raleway;
+	font-size: 17px;
+	padding: 10px;
+  	width: 100%;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {background-color: #ffdddd;}
+/* Hide all steps by default: */
+.tab {display: none;}
+
+button {
+	background-color: #4CAF50;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	font-size: 17px;
+  	font-family: Raleway;  		
+	padding: 10px 20px;  			
+}
+
+button:hover {opacity: 0.8;}
+#prevBtn {background-color: #bbbbbb;}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+	background-color: #bbbbbb;
+  	border: none;  
+  	border-radius: 50%;
+  	display: inline-block;
+	height: 15px;
+	margin: 0 2px;
+	opacity: 0.5;
+  	width: 15px;
+}
+.step.active {opacity: 1;}
+/* Mark the steps that are finished and valid: */
+.step.finish {background-color: #4CAF50;}

@@ -137,44 +137,50 @@
   </div>
 </div>
 
-
 <!-- Area Photo -->
 <div class="w3-display-container wedding_image">
-  <div class="w3-display-middle w3-text-black w3-center">
-  </div>
+  <div class="w3-display-middle w3-text-black w3-center"></div>
 </div>
-
 
 <!-- Registry -->
 <div class="w3-container w3-padding-64" id="registry">
   <div class="w3-content">
-    <h1 class="w3-center w3-text-black"><b><i class="fa fa-gift" style="font-size:36px"></i> Registry <i class="fa fa-gift" style="font-size:36px"></i></b></h1>
-    <p>We've decided that your presence is best gift of all. lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.</p><br>
+    <h1 class="w3-center w3-text-black"><b><i class="px36 fa fa-gift"></i> Registry <i class="px36 fa fa-gift"></i></b></h1>
+    <p>As we strive to live with less, we ask for no gifts please. Your presence and support is the greatest gift we could ask for! In lieu of gifts, donations could be made to <b><a href="http://www.foodgatherers.org">food gatherers</a></b>. A food rescue and hunger alleviation organization where Julee volunteers.</p><br>
   </div>
 </div>
 
 <!-- Wedding Party -->
-
-<div class="w3-container w3-padding-64" id="weddingparty" style="background-color: #466780; color:white;">
+<div class="w3-container w3-padding-64" id="weddingparty">
   <div class="w3-content">
     <h1 class="w3-center w3-text-white"><b>Wedding Party</b></h1>
     <div class="w3-half">
       <div class="w3-bar w3-center">
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
+        <h2>BRIDESMAIDS</h2>
+        <p>Anne Gray Harlow -- Maid of Honor</p>
+        <p>Laine Koch -- Matron of Honor</p>
+        <p>Lindsay Voigtsberger</p>
+        <p>Macy Henry</p>
+        <p>Kasey Kight</p>
+        <p>Lauren Caughorn</p>
+        <p>Sydney Schaaf</p>
+        <br/>
+        <h2>FLOWER GIRL</h2>
+        <p>Caroline Gauldin</p>
       </div>
     </div>
     <div class="w3-half">
       <div class="w3-bar w3-center">
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
-        <p>Megan Davis -- Balloon Creator</p>
+        <h2>GROOMSMEN</h2>
+        <p>Spencer Henry -- Best Man</p>
+        <p>Sudipto Aich</p>
+        <p>Lance Saunders</p>
+        <p>Tommy Harris</p>
+        <p>Jonathan Harlow</p>
+        <br/>
+        <h2>RING BEARERS</h2>
+        <p>Elijah Koch</p>
+        <p>Noah Koch</p>
       </div>
     </div>
   </div>
