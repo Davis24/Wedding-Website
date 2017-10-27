@@ -12,11 +12,11 @@ p {line-height: 2}
 .bgimg {background-image: url("/img/julee_andrew.jpg")}
 .bgimg2 {background-image: url("/img/andrew_julee_3.jpg")}
 
-#weddingparty, #rsvp {background-color: #466780; color:white;}
+#weddingparty, #rsvp {background-color: #727A76; color:white;}
 .px36 {font-size:36px;}
 /* Firefox */
 ::-moz-selection { 
-	background: #fe9a90;
+	background: #DB7D5B;
 	color: white; 
 }
 
@@ -24,7 +24,7 @@ p {line-height: 2}
 .width100{width: 100%;}
 
 ::selection {
-	background: #fe9a90;
+	background: #DB7D5B;
 	color: white;
 }
 	

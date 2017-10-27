@@ -143,13 +143,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-left{float:left!important}.w3-right{float:right!important}
 /*.w3-button:hover{color:#000!important;background-color:#ccc!important}*/
 
-.w3-button:hover{color:white!important;background-color:#fe9a90!important}
+.w3-button:hover{color:white!important;background-color:#DB7D5B!important}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
-.w3-pink-wedding:hober{color:#000!!important;background-color:#fe9a90!important}
+.w3-pink-wedding:hober{color:#000!!important;background-color:#DB7D5B!important}
 .w3-green-wedding{color:white!important; background-color:#6fa77b!important}
-.w3-green-wedding:hover{color:white!important; background-color:#fe9a90!important }
+.w3-green-wedding:hover{color:white!important; background-color:#DB7D5B!important }
 
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}

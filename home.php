@@ -53,8 +53,9 @@
 <div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
   <h1>HOPE YOU CAN MAKE IT!</h1>
   <p class="w3-large">Kindly Respond By <b>February 14th</b></p>
-  <p class="w3-xlarge">
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-green-wedding w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  <p class="w3-xlarge">RSVP COMING SOON</p>
+
+    <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-green-wedding w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>-->
   </p>
 </div>
 
