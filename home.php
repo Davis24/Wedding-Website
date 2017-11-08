@@ -5,7 +5,7 @@
   <div class="w3-display-middle w3-text-white w3-center">
     <h1 class="w3-jumbo">Andrew & Julee</h1>
     <h2>Are getting married</h2>
-    <h2><b>17.07.2017</b></h2>
+    <h2><b>24.03.2017</b></h2>
     <h2>Portsmouth Women's Club</h2>
   </div>
 </header>
@@ -18,26 +18,29 @@
     <p><i>Ironically, while Julee and Andrew both went to Virginia Tech, it wasn't until Julee moved to Ann Arbor, MI that they met. Andrew came to visit a fellow Hokie (and groomsman) Sudipto. During his visit, Julee and Andrew met at a Tiger's baseball game where they hit it off and talked throughout the evening. They continued to stay in touch, and Andrew made several more trips to Michigan to "visit Sudipto." The rest is history!</i>
     </p><br>
     <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+
   </div>
+
 </div>
 
-<!-- Background photo -->
+<!-- Background photo 
 <div class="w3-display-container bgimg2 w3-grayscale-max">
   <div class="w3-display-middle w3-text-white w3-center">
     <h1 class="w3-jumbo">You Are Invited</h1><br>
     <h2>Of course..</h2>
   </div>
-</div>
+</div>-->
 
 <!-- Wedding information -->
 <div class="w3-container w3-padding-64 w3-grayscale-min w3-center" id="wedding">
   <div class="w3-content">
+
     <h1 class="w3-text-black"><b>THE WEDDING</b></h1>
     <img class="w3-round-large w3-grayscale-min width100" src="http://audreyrosephoto.com/wp-content/uploads/2014/07/2014-07-30_0175.jpg" style="margin:64px 0">
     <div class="w3-row">
       <div class="w3-half">
         <h2>When</h2>
-        <p>Wedding Ceremony - 5:00pm</p>
+        <p>Wedding Ceremony - March 24th 5:00pm</p>
         <p>Reception & Dinner to Immediately Follow</p>
       </div>
       <div class="w3-half">
@@ -53,7 +56,8 @@
 <div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
   <h1>HOPE YOU CAN MAKE IT!</h1>
   <p class="w3-large">Kindly Respond By <b>February 14th</b></p>
-  <p class="w3-xlarge">RSVP COMING SOON</p>
+  <p class="w3-xlarge">RSVP COMING CHRISTMAS TIME FRAME</p>
+
 
     <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-green-wedding w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>-->
   </p>

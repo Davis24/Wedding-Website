@@ -114,26 +114,20 @@
 ?>
 
 <!-- Wedding information -->
+<br>
+<br>
 <div class="w3-container w3-padding-32 w3-center" id="accommodations">
   <div class="w3-content">
     <h1 class="w3-text-black"><b>ACCOMMODATIONS</b></h1>
     <div class="w3-row">
-      <div class="w3-half">
         <h2>Sheraton Norfolk Waterside</h2>
         <p><a href="http://www.sheratonnorfolkwaterside.com/">235 E Main Street, Norfolk VA, 23510, USA</a></p>
         <p>757-627-4200</p>
-      </div>
-      <div class="w3-half">
-        <h2>Norfolk Waterside Marriott</h2>
-        <p><a href="http://www.marriott.com/hotels/travel/orfws-norfolk-waterside-marriott/">777 Waterside Drive, Norfolk, VA, 23510, USA</a></p>
-        <p>888-627-8042</p>
-      </div>
-      <p> Is there a code for a discount? </p>
     </div>
     <hr>
     <h2 class="w3-text-black"><b>TRANSPORTATION</b></h2>
     <h3>Shuttle Transportation</h3>
-    <p>Provided transportation will be provided from xx to xx at xx time.</p>
+    <p>Transportation will be provided from the Sheraton to the venue throughout the evening.</p>
   </div>
 </div>
 
