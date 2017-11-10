@@ -1,12 +1,11 @@
 <?php include ('header.html') ?>
 
-<!-- Header / Home-->
 <header class="w3-display-container w3-wide bgimg" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
     <h1 class="w3-jumbo">Andrew & Julee</h1>
-    <h2>Are getting married</h2>
+    <h2><b>Are getting married</b></h2>
     <h2><b>24.03.2017</b></h2>
-    <h2>Portsmouth Women's Club</h2>
+    <h2><b>Portsmouth Women's Club</b></h2>
   </div>
 </header>
 
@@ -16,11 +15,8 @@
     <h1 class="w3-center w3-text-black"><b>&Prime;Our Story&Prime;</b></h1>
     <img class="w3-round w3-grayscale-min width100" src="img/julee_andrew_2.jpg" style="margin:32px 0">
     <p><i>Ironically, while Julee and Andrew both went to Virginia Tech, it wasn't until Julee moved to Ann Arbor, MI that they met. Andrew came to visit a fellow Hokie (and groomsman) Sudipto. During his visit, Julee and Andrew met at a Tiger's baseball game where they hit it off and talked throughout the evening. They continued to stay in touch, and Andrew made several more trips to Michigan to "visit Sudipto." The rest is history!</i>
-    </p><br>
-    <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
-
+    </p>
   </div>
-
 </div>
 
 <!-- Background photo 

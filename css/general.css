@@ -8,8 +8,9 @@ p {line-height: 2}
 	min-height: 100%;
 	min-width: 100%;
 }
+
 .wedding_image{background-image: url("/img/womens_club.jpg")}
-.bgimg {background-image: url("/img/julee_andrew.jpg")}
+.bgimg {background-image: url("/img/rings2.jpg");}
 .bgimg2 {background-image: url("/img/andrew_julee_3.jpg")}
 
 #weddingparty, #rsvp {background-color: #727A76; color:white;}
