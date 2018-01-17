@@ -121,8 +121,8 @@
     <h1 class="w3-text-black"><b>ACCOMMODATIONS</b></h1>
     <div class="w3-row">
         <h2>Sheraton Norfolk Waterside</h2>
-        <p><a href="http://www.sheratonnorfolkwaterside.com/">235 E Main Street, Norfolk VA, 23510, USA</a></p>
-        <p>757-627-4200</p>
+        <p><a href="http://www.sheratonnorfolkwaterside.com/">777 Waterside Drive, Norfolk, VA, 23510, United States</a></p>
+        <p>Phone: 757-622-6664   •  Hotel Reservations: 888-627-8042</p>
     </div>
     <hr>
     <h2 class="w3-text-black"><b>TRANSPORTATION</b></h2>
@@ -178,4 +178,7 @@
       </div>
     </div>
   </div>
+</div>
+<div class="w3-container" id="author">
+  <p class="w3-center" >Website Designed & Developed by Megan Davis @ 2017</p>
 </div>

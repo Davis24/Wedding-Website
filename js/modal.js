@@ -10,6 +10,11 @@ function addGuest()
     var entry = document.createElement('li');
     entry.id = num_guests;
     entry.setAttribute("class","w3-display-container");
+    
+    var input_text = document.createElement('input');
+    input_text.setAttribute("name","guests[]");
+    input_text.setAttribute("type", "hidden");
+    input_text.setAttribute("value", x);
 
     var span = document.createElement('span');
     span.innerHTML = "&times;";
@@ -17,6 +22,7 @@ function addGuest()
     span.onclick = function() {removeGuest(this) };
     
     entry.appendChild(document.createTextNode(x));
+    entry.appendChild(input_text);
     entry.appendChild(span);
     
     list.appendChild(entry);

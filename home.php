@@ -1,10 +1,36 @@
-<?php include ('header.html') ?>
+<?php 
+
+  include ('header.html'); 
+  if(filter_has_var(INPUT_POST, 'submit')){
+    var_dump($_POST);    
+
+    ## Grabs data
+    $first_name = htmlspecialchars($_POST['fname']);
+    $last_name = htmlspecialchars($_POST['lname']);
+    $email = htmlspecialchars($_POST['email']);
+    $guest_list = $_POST['guests'];
+    $number_of_guests = count($guest_list);
+    $dietary_restrictions = htmlspecialchars($_POST['diet']);
+    $attending = htmlspecialchars($_POST['attend']);
+
+    echo "<p>First Name: $first_name</p>";
+    echo "<p>LAstName: $last_name</p>";
+    echo "<p>email Name: $email</p>";
+    echo "<p>diet : $dietary_restrictions</p>";
+    echo "<p>attending: $attending</p>";
+    echo "<p> # : $number_of_guests</p>";
+
+    ## Post to database
+    
+
+  }  
+?>
 
 <header class="w3-display-container w3-wide bgimg" id="home">
   <div class="w3-display-middle w3-text-white w3-center">
     <h1 class="w3-jumbo">Andrew & Julee</h1>
     <h2><b>Are getting married</b></h2>
-    <h2><b>24.03.2017</b></h2>
+    <h2><b>03.24.2018</b></h2>
     <h2><b>Portsmouth Women's Club</b></h2>
   </div>
 </header>
@@ -43,10 +69,7 @@
 <div class="w3-container w3-padding-64 w3-center w3-wide" id="rsvp">
   <h1>HOPE YOU CAN MAKE IT!</h1>
   <p class="w3-large">Kindly Respond By <b>February 14th</b></p>
-  <p class="w3-xlarge">RSVP COMING CHRISTMAS TIME FRAME</p>
-
-
-    <!--<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-green-wedding w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>-->
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-green-wedding w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
   </p>
 </div>
 
@@ -58,45 +81,42 @@
       <h1 class="w3-wide w3-center">CAN YOU COME?</h1>
       <p class="w3-center">We really hope you can make it.</p>
 
-      <form id="regForm" method="post" action="/wedding.php">
+      <form id="regForm" method="post" action="<?php echo $_SERVER['PHP_SELF']?>">
       <!-- One "tab" for each step in the form: -->
       <div class="tab">
-        <p><label>Email:</label><input placeholder="Email" oninput="this.className = ''" name="email"></p>
-        <p><input class="w3-radio" type="radio" name="attend" value="attending" checked><label>Attending</label></p>
-        <p><input class="w3-radio" type="radio" name="attend" value="not attending"><label>Not Attending</label></p>
+        <label>Name:</label>
+        <input placeholder="First Name" class="w3-input w3-border" style="margin-bottom:5px;" oninput="this.className = ''" name="fname">
+        <input placeholder="Last Name" class="w3-input w3-border"  style="margin-bottom:5px;" oninput="this.className = ''" name="lname">
+        <br/>
+        <label>Email:</label>
+        <input class="w3-input w3-border"  placeholder="Email" oninput="this.className = ''" name="email">
+        <p><input class="w3-radio" type="radio" name="attend" value="attending" checked><label>Accept with pleasure</label></p>
+        <p><input class="w3-radio" type="radio" name="attend" value="not attending"><label>Decline with regrets</label></p>
+        <div style="float:right;">
+          <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+      </div>
       </div>
       <div class="tab">
-        <p>Name:</p>
-        <p><input placeholder="First Name" oninput="this.className = ''" name="fname"></p>
-        <p><input placeholder="Last Name" oninput="this.className = ''" name="lname"></p>
-      </div>
-      <div class="tab">
-        <label>Add additional guests to the list:</label>
+        <label>Add additional guest to the list:</label>
         <div class="w3-row">
           <div class="w3-twothird"><input id="guest_name" class="w3-input w3-border" type="text" placeholder="Jane Doe" name="guests"></div>
           <div class="w3-third">
-            <button type="button" class="w3-button w3-green w3-border" onclick="addGuest()">+</button>
+            <button type="button" class="w3-button w3-green w3-border" onclick="addGuest()">Add</button>
           </div>
         </div>
         <br/>
-          <ul id="guest_list" class="w3-ul w3-card-4">
-            <li class="w3-display-container">Jill <span onclick="removeGuest(this)" class="w3-button w3-transparent w3-display-right">&times;</span></li>
-            <li class="w3-display-container">Adam <span onclick="removeGuest(this)" class="w3-button w3-transparent w3-display-right">&times;</span></li>
-            <li class="w3-display-container">Eve <span onclick="removeGuest(this)" class="w3-button w3-transparent w3-display-right">&times;</span></li>
-          </ul>
-        <p><label>Dietary Restrictions</label><input class="w3-input w3-border" type="text" placeholder="No dietary restictions." name="diet"></p>
+          <ul id="guest_list" class="w3-ul w3-card-4"></ul>
+          <br/>
+          <label>Dietary Restrictions</label>
+          <input class="w3-input w3-border" type="text" placeholder="No dietary restictions." name="diet">
+          <br/>
+          <div style="float:right;">
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button type="submit" name="submit" >Submit</button>
+          </div>
       </div>
-
-      <div style="overflow:auto;">
-
-      <div style="float:right;">
-        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-      </div>
-    </div>
     <!-- Circles which indicates the steps of the form:  -->
     <div style="text-align:center;margin-top:40px;">
-      <span class="step"></span>
       <span class="step"></span>
       <span class="step"></span>
     </div>

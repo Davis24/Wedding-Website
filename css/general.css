@@ -13,7 +13,7 @@ p {line-height: 2}
 .bgimg {background-image: url("/img/rings2.jpg");}
 .bgimg2 {background-image: url("/img/andrew_julee_3.jpg")}
 
-#weddingparty, #rsvp {background-color: #727A76; color:white;}
+#weddingparty, #rsvp, #author {background-color: #727A76; color:white;}
 .px36 {font-size:36px;}
 /* Firefox */
 ::-moz-selection { 
