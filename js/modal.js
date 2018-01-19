@@ -3,6 +3,7 @@ var num_guests = 1;
 
 
 
+
 function addGuest()
 {
     var x = document.getElementById("guest_name").value;
@@ -51,6 +52,10 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "inline";
   }
   if (n == (x.length - 1)) {
+    if(document.getElementById("last_name").value.toLowerCase() === 'fenstermaker') {
+      document.getElementById("guest_label").style.display = "none";  
+      document.getElementById("guest_add").style.display = "none";
+    }
     document.getElementById("nextBtn").innerHTML = "Submit";
   } else {
     document.getElementById("nextBtn").innerHTML = "Next";
